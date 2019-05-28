@@ -13,7 +13,6 @@ def insertData():
     response = mainController.insertUser(u)    
     return jsonify(response)
 
-'''
 @bp.route("/update", methods=["POST"])
 def updateData():
     u = request.get_json()
@@ -24,4 +23,4 @@ def updateData():
 def deleteData():
     u = request.get_json()
     response = mainController.deleteUser(u)
-    return jsonify(response) '''
+    return jsonify(response)
