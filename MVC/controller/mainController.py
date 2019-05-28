@@ -38,7 +38,7 @@ class MainController(object):
             print('User doesnot exist')
             return 'User doesnot exist'        
 
-    # >>>>>> --- Delete User Details --- <<<<<<
+# >>>>>> --- Delete User Details --- <<<<<<
 
     def deleteUser(self, uInput):
         userExist = self.findUser(uInput)
